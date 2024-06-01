@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_up",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_button_down",
+  "eventList":[],
   "managed":true,
-  "name":"obj_button_up",
+  "name":"obj_button_down",
   "overriddenProperties":[],
   "parent":{
     "name":"Botões",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_up",
-    "path":"sprites/spr_button_up/spr_button_up.yy",
+    "name":"spr_button_down",
+    "path":"sprites/spr_button_down/spr_button_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

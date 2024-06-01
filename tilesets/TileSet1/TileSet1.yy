@@ -1,12 +1,7 @@
 {
   "$GMTileSet":"",
   "%Name":"TileSet1",
-  "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"Chão","closed_edge":false,"name":"Chão","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
-        264,715,716,0,89,0,0,0,85,0,0,0,0,699,698,0,263,0,0,0,247,0,0,0,265,0,0,0,281,0,0,0,312,144,246,0,248,
-        0,282,0,280,0,295,143,329,145,112,
-      ],},
-  ],
+  "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
