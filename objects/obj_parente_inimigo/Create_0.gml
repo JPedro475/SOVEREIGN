@@ -1,7 +1,8 @@
 direc = 0;
-vel = 0.5;
-vida = 3;
+vel = 0;
 
-die = false;
+vida = 3;
 hit = false;
+sprite_morrendo = 0;
+
 reset = false;

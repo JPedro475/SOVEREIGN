@@ -1,4 +1,10 @@
 if alarm[0] <= 0
 {
-	vida_atual -= 1;
+	vida -= 1;
+	alarm[0] = inv_tempo;
+}
+
+with(other)
+{
+	instance_destroy();
 }

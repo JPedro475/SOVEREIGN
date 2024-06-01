@@ -1,6 +1,6 @@
 // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
-function scr_animation_end(){
+function scr_fim_animacao(){
 	var _sprite = sprite_index;
 	var _image =  image_index;
 	if (argument_count > 0) _sprite = argument[0];

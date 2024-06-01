@@ -83,12 +83,12 @@ velh = (dir - esq) * vel;
 		//direita
 		if xscale == 0 
 		{
-			instance_create_layer(x + 30, y - 20, "Player", obj_hitbox)
+			instance_create_layer(x + 30, y - 20, "Instances", obj_hitbox)
 		}
 		//esquerda
 		else if xscale == 1
 		{
-			instance_create_layer(x - 30, y - 20, "Player", obj_hitbox)
+			instance_create_layer(x - 30, y - 20, "Instances", obj_hitbox)
 		}
 	}
 }
@@ -104,7 +104,7 @@ function scr_personagem_atacando()
 		sprite_index = spr_player_attack_esq;
 	}
 	
-	if scr_animation_end()
+	if scr_fim_animacao()
 	{
 		estado = scr_personagem_movendo;
 	}

@@ -1,1 +1,6 @@
-alarm[0] = 4
+alarm[0] = 40
+event_inherited();
+
+vida = 3
+sprite_morrendo = spr_bruxa_die;
+

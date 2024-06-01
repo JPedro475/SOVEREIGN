@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"scr_animation_end",
+  "%Name":"scr_fim_animacao",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_animation_end",
+  "name":"scr_fim_animacao",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
