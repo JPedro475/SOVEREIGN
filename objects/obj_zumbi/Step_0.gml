@@ -1,3 +1,8 @@
+if keyboard_check_pressed(vk_escape)
+{
+	global.pause = !global.pause;
+}
+
 event_inherited();
 
 if vida > 0
