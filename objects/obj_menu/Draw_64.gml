@@ -23,6 +23,7 @@ for( var _i = 0; _i < op_tamanho; _i++)
 		index = _i;
 		if(mouse_check_button_pressed(mb_left))
 		{
+			audio_play_sound(snd_menu, 10, false);
 			if (index == 0)
 			{
 				room_goto(rm_fase_1);
@@ -35,7 +36,7 @@ for( var _i = 0; _i < op_tamanho; _i++)
 			{
 				
 			}*/
-			else if(index == 3)
+			else if(index == 4)
 			{
 				game_end();
 			}

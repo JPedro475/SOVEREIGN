@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_espinhos",
-  "eventList":[],
+  "%Name":"obj_button_op",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_espinhos",
+  "name":"obj_button_op",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Botões",
+    "path":"folders/Objetos/Botões.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_espinhos",
-    "path":"sprites/spr_espinhos/spr_espinhos.yy",
+    "name":"spr_button_up",
+    "path":"sprites/spr_button_up/spr_button_up.yy",
   },
   "spriteMaskId":null,
   "visible":true,

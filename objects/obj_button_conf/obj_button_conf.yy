@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_down",
+  "%Name":"obj_button_conf",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_down",
+  "name":"obj_button_conf",
   "overriddenProperties":[],
   "parent":{
     "name":"Botões",
@@ -25,13 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_down",
-    "path":"sprites/spr_button_down/spr_button_down.yy",
+    "name":"spr_button_dir",
+    "path":"sprites/spr_button_dir/spr_button_dir.yy",
   },
   "spriteMaskId":null,
   "visible":true,

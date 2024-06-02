@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Object26",
-  "eventList":[],
+  "%Name":"obj_button_up_conf",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object26",
+  "name":"obj_button_up_conf",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menus",
-    "path":"folders/Objetos/Controladores/Menus.yy",
+    "name":"Botões",
+    "path":"folders/Objetos/Botões.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_button_up",
+    "path":"sprites/spr_button_up/spr_button_up.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

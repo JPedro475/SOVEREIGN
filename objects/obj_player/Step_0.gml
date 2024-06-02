@@ -17,8 +17,5 @@ else
 	image_alpha = 1;
 }
 
-if vida <= 0 
-{
-	sprite_index = spr_player_dead;
-	vel = 0;
-}
+
+

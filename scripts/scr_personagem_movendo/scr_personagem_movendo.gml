@@ -1,14 +1,15 @@
 // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
-function scr_personagem_movendo(){
-	//Teclas
+function scr_personagem_movendo()
+{
+//Teclas
 dir = keyboard_check(vk_right);
 esq = keyboard_check(vk_left);
 cima = keyboard_check_pressed(vk_up);
 
 velh = (dir - esq) * vel;
 
-	//Direção
+	#region //Direção
 	if dir
 	{
 		xscale = 0;
@@ -31,7 +32,7 @@ velh = (dir - esq) * vel;
 			sprite_index = spr_player_idle_esq;
 		}
 	}
-
+	#endregion
 
 	#region Gravidade
 	if (!place_meeting(x, y + 1, obj_chao))
@@ -73,12 +74,11 @@ velh = (dir - esq) * vel;
 	y += velv;
 	#endregion
 
+	#region Combate
 	if keyboard_check_pressed(ord("Z"))
 	{
 		image_index = 0;
 		estado = scr_personagem_atacando;
-		
-		
 		//Hitbox
 		//direita
 		if xscale == 0 
@@ -91,6 +91,7 @@ velh = (dir - esq) * vel;
 			instance_create_layer(x - 30, y - 20, "Instances", obj_hitbox)
 		}
 	}
+	#endregion
 }
 
 function scr_personagem_atacando()

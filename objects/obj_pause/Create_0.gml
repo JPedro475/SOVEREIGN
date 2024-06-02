@@ -5,8 +5,8 @@ open = false;
 
 desativar = function ()
 {
-	instance_deactivate_object(obj_button_down)
-	instance_deactivate_object(obj_button_up)
-	instance_deactivate_object(obj_button_dir)
-	instance_destroy()
+	instance_deactivate_object(obj_button_up);
+	instance_deactivate_object(obj_button_dir);
+	instance_deactivate_object(obj_button_esq);
+	instance_deactivate_object(obj_player);
 }

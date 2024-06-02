@@ -27,29 +27,27 @@ if(index == _i)
 	{
 		if(index==3)
 		{
-		game_end();
+			game_end();
 		}
-	else if(index == 0)
-	{
-		instance_activate_all();
-		instance_deactivate_object(obj_menu_restart);
-	    instance_deactivate_object(Obj_vitoria);
-		instance_deactivate_object(obj_main_retart);
-		with(obj_button_pause){open=false}
-		desativar();
-	}	
-	else if(index==1)
-	{	
-		desativar() instance_destroy() room_restart();
+		else if(index == 0)
+		{
+			instance_activate_all();
+
+			instance_deactivate_object(obj_menu_restart);
+		    //instance_deactivate_object(Obj_vitoria);
+			//instance_deactivate_object(obj_main_retart);
+			with(obj_button_pause){open=false}
+			desativar();
+		}	
+		else if(index==1)
+		{	
+			desativar() instance_destroy() room_restart();
+		}
+		else if(index==2)
+		{
+			desativar() instance_destroy() room_goto(rm_menu);
+		}
 	}
-	else if(index==2)
-	{
-		desativar() instance_destroy() room_goto(rm_menu);
-	}
-	
-	}
-		
-	
 }
 else{draw_set_color(c_white)}
 draw_text(_x1,_y2,opcoes[_i]);
