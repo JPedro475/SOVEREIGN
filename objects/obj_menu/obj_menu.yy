@@ -9,8 +9,8 @@
   "name":"obj_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controladores",
-    "path":"folders/Objetos/Controladores.yy",
+    "name":"Menus",
+    "path":"folders/Objetos/Controladores/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,

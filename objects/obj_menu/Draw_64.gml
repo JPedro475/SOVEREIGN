@@ -29,7 +29,7 @@ for( var _i = 0; _i < op_tamanho; _i++)
 			}
 			else if (index == 1)
 			{
-				room_goto(rm_menu_op);
+				room_goto(rm_tutorial);
 			}
 			/*else if (index == 2)
 			{

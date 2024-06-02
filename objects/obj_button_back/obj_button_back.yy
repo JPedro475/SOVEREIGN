@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu_op",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_button_back",
+  "eventList":[],
   "managed":true,
-  "name":"obj_menu_op",
+  "name":"obj_button_back",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menus",
-    "path":"folders/Objetos/Controladores/Menus.yy",
+    "name":"Botões",
+    "path":"folders/Objetos/Botões.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_button_back",
+    "path":"sprites/spr_button_back/spr_button_back.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

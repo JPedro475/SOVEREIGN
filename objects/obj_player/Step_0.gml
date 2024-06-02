@@ -1,7 +1,3 @@
-if keyboard_check_pressed(vk_escape)
-{
-	global.pause = !global.pause;
-}
 script_execute(estado);
 //Combate
 if alarm[0] > 0
@@ -21,3 +17,8 @@ else
 	image_alpha = 1;
 }
 
+if vida <= 0 
+{
+	sprite_index = spr_player_dead;
+	vel = 0;
+}
