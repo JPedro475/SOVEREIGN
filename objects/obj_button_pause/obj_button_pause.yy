@@ -10,8 +10,8 @@
   "name":"obj_button_pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Btn_Menus_Game",
-    "path":"folders/Objetos/Botões/Btn_Menus_Game.yy",
+    "name":"Btn_Menu_Pause",
+    "path":"folders/Objetos/Botões/Btn_Menu_Pause.yy",
   },
   "parentObjectId":null,
   "persistent":false,

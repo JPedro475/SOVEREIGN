@@ -10,8 +10,8 @@
   "name":"obj_button_up",
   "overriddenProperties":[],
   "parent":{
-    "name":"Botões",
-    "path":"folders/Objetos/Botões.yy",
+    "name":"Btn_Mov",
+    "path":"folders/Objetos/Botões/Btn_Mov.yy",
   },
   "parentObjectId":null,
   "persistent":false,

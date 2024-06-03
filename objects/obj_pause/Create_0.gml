@@ -12,6 +12,6 @@ desativar = function ()
 	instance_deactivate_object(obj_button_up);
 	instance_deactivate_object(obj_button_dir);
 	instance_deactivate_object(obj_button_esq);
-	//instance_deactivate_object(obj_player);
+	instance_deactivate_object(obj_button_attack);
 	instance_destroy();
 }

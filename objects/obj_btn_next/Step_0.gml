@@ -1,4 +1,4 @@
-virtual_key_add(x * 2, y * 2, 80, 80, vk_up);
+virtual_key_add(x, y , 100, 100,ord("N"));
 var _varx = (camera_get_view_x(view_camera[0]));
 var _view_width = camera_get_view_width(view_camera[0]);
 var _object_width = sprite_width;

@@ -5,5 +5,7 @@ open = false;
 desativar = function()
 {
 	instance_deactivate_object(obj_button_up);
-	instance_deactivate_object(obj_button_down);
+	instance_deactivate_object(obj_button_attack);
+	instance_deactivate_object(obj_button_dir);
+	instance_deactivate_object(obj_button_esq);
 }
