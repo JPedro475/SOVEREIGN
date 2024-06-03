@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu",
+  "%Name":"obj_btn_down_inicial",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_menu",
+  "name":"obj_btn_down_inicial",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menus",
-    "path":"folders/Objetos/Controladores/Menus.yy",
+    "name":"Btn_Menu_Principal",
+    "path":"folders/Objetos/Botões/Btn_Menu_Principal.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -32,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_button_down",
+    "path":"sprites/spr_button_down/spr_button_down.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

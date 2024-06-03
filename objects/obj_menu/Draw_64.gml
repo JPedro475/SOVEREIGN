@@ -26,14 +26,14 @@ if (index == _i)
 		if (index == 0)
 		{
 			room_goto(rm_fase_1);
-			instance_destroy(obj_button_up_conf);
-			instance_destroy(obj_button_down);
+			instance_destroy(obj_btn_up_inicial);
+			instance_destroy(obj_btn_down_inicial);
 		}
 		else if (index == 1)
 		{
 			room_goto(rm_tutorial);
-			instance_destroy(obj_button_up_conf);
-			instance_destroy(obj_button_down);
+			instance_destroy(obj_btn_up_inicial);
+			instance_destroy(obj_btn_down_inicial);
 		}
 		else if (index == 2)
 		{
