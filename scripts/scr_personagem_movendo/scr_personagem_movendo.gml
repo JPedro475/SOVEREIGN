@@ -43,7 +43,7 @@ velh = (dir - esq) * vel;
 	{
 		if cima
 		{
-			velv = -2.0
+			velv = -2.5
 		}
 	}
 	#endregion

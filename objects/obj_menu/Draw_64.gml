@@ -28,14 +28,25 @@ for( var _i = 0; _i < op_tamanho; _i++)
 			{
 				room_goto(rm_fase_1);
 			}
+			
 			else if (index == 1)
 			{
 				room_goto(rm_tutorial);
 			}
-			/*else if (index == 2)
+			
+			else if (index == 2)
 			{
-				
-			}*/
+				if(obj_sound_manager.music == true)
+				{
+					obj_sound_manager.music = !obj_sound_manager.music
+					audio_pause_all()
+				}
+				else
+				{
+					audio_play_sound(snd_trilha, 0, true);
+					obj_sound_manager.music = true;
+				}
+			}
 			else if(index == 4)
 			{
 				game_end();
