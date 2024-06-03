@@ -1,4 +1,4 @@
-draw_set_font(fnt_menu)
+draw_set_font(-1)
 var _gui_width=display_get_gui_width();
 var _gui_height=display_get_gui_height();
 var _x1 = _gui_width / 2;
@@ -32,11 +32,18 @@ if(index == _i)
 		else if(index == 0)
 		{
 			instance_activate_all();
+			instance_deactivate_object(obj_button_up_conf);
+			instance_deactivate_object(obj_button_down);
+			instance_deactivate_object(obj_button_ok);
+
 
 			instance_deactivate_object(obj_menu_restart);
 		    //instance_deactivate_object(Obj_vitoria);
 			//instance_deactivate_object(obj_main_retart);
-			with(obj_button_pause){open=false}
+			with(obj_button_pause)
+			{
+				open=false
+			}
 			desativar();
 		}	
 		else if(index==1)

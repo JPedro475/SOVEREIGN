@@ -1,2 +1,2 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+music=true;
+audio_play_sound(snd_trilha,0,true);
