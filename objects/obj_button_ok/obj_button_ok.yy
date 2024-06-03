@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_op",
+  "%Name":"obj_button_ok",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_op",
+  "name":"obj_button_ok",
   "overriddenProperties":[],
   "parent":{
-    "name":"Botões",
-    "path":"folders/Objetos/Botões.yy",
+    "name":"Btn_Menu_Principal",
+    "path":"folders/Objetos/Botões/Btn_Menu_Principal.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -25,13 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_up",
-    "path":"sprites/spr_button_up/spr_button_up.yy",
+    "name":"spr_btn_ok",
+    "path":"sprites/spr_btn_ok/spr_btn_ok.yy",
   },
   "spriteMaskId":null,
   "visible":true,

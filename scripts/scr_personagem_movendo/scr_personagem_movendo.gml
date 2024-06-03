@@ -83,12 +83,12 @@ velh = (dir - esq) * vel;
 		//direita
 		if xscale == 0 
 		{
-			instance_create_layer(x + 30, y - 20, "Instances", obj_hitbox)
+			instance_create_layer(x + 40, y - 20, "Instances", obj_hitbox)
 		}
 		//esquerda
 		else if xscale == 1
 		{
-			instance_create_layer(x - 30, y - 20, "Instances", obj_hitbox)
+			instance_create_layer(x - 40, y - 20, "Instances", obj_hitbox)
 		}
 	}
 	#endregion

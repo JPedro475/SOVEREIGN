@@ -4,8 +4,7 @@ var _gui_height = display_get_gui_height();
 var _x1 = _gui_width / 2;
 var _y1 = _gui_height / 2;
 var _margin = 50;
-var _m_x = device_mouse_x_to_gui(0);
-var _m_y = device_mouse_y_to_gui(0);
+
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
@@ -16,49 +15,53 @@ for( var _i = 0; _i < op_tamanho; _i++)
 	var _string_w = string_width(opcoes[_i]);
 	var _string_h = string_height(opcoes[_i]);
 	
+if (index == _i)
+{
+	draw_set_color(c_white);
+	draw_set_font(fnt_menu);
+	index = _i;
 	
-	if (point_in_rectangle(_m_x, _m_y, _x1 - _string_w / 2,  _y2 - _string_h / 2, _x1 + _string_w / 2, _y2 + _string_h / 2))
+	if(open == true)
 	{
-		draw_set_color(c_white);
-		index = _i;
-		if(mouse_check_button_pressed(mb_left))
+		if (index == 0)
 		{
-			audio_play_sound(snd_menu, 10, false);
-			if (index == 0)
+			room_goto(rm_fase_1);
+			instance_destroy(obj_button_up_conf);
+			instance_destroy(obj_button_down);
+		}
+		else if (index == 1)
+		{
+			room_goto(rm_tutorial);
+			instance_destroy(obj_button_up_conf);
+			instance_destroy(obj_button_down);
+		}
+		else if (index == 2)
+		{
+			if(obj_sound_manager.music == true)
 			{
-				room_goto(rm_fase_1);
+				obj_sound_manager.music = !obj_sound_manager.music;
+				audio_pause_all();
 			}
-			
-			else if (index == 1)
+			else 
 			{
-				room_goto(rm_tutorial);
-			}
-			
-			else if (index == 2)
-			{
-				if(obj_sound_manager.music == true)
-				{
-					obj_sound_manager.music = !obj_sound_manager.music
-					audio_pause_all()
-				}
-				else
-				{
-					audio_play_sound(snd_trilha, 0, true);
-					obj_sound_manager.music = true;
-				}
-			}
-			else if(index == 4)
-			{
-				game_end();
+				audio_play_sound(sn_menu, 0, true);
+				obj_sound_manager.music = true;
 			}
 		}
+		else if (index == 3)
+		{
+			room_goto(rm_tutorial);
+		}
+		else if (index == 4)
+		{
+			game_end();
+		}
 	}
-	else
-	{
-		draw_set_color(#a1913b);
-	}
-	
-	draw_text(_x1, _y2, opcoes[_i]);
 }
-
-
+else 
+{
+	draw_set_color(#a1913c);
+}
+draw_text(_x1, _y2, opcoes[_i]);
+draw_set_font(fnt_menu);
+}

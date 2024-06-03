@@ -8,8 +8,8 @@
   "name":"obj_button_up_conf",
   "overriddenProperties":[],
   "parent":{
-    "name":"Botões",
-    "path":"folders/Objetos/Botões.yy",
+    "name":"Btn_Menus_Game",
+    "path":"folders/Objetos/Botões/Btn_Menus_Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,
