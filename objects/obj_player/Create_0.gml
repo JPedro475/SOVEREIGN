@@ -13,7 +13,7 @@ velv = 0;
 vel = 1.7;
 
 //Combate
-vida = 1;
+vida = 5;
 alfa_hit = 0;
 inv_tempo = 90;
 

@@ -146,11 +146,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_fase_1","path":"rooms/rm_fase_1/rm_fase_1.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_tutorial_andando","path":"rooms/rm_tutorial_andando/rm_tutorial_andando.yy",},},
     {"roomId":{"name":"rm_tutorial_pulando","path":"rooms/rm_tutorial_pulando/rm_tutorial_pulando.yy",},},
     {"roomId":{"name":"rm_tutorial_atacando","path":"rooms/rm_tutorial_atacando/rm_tutorial_atacando.yy",},},
-    {"roomId":{"name":"rm_fase_1","path":"rooms/rm_fase_1/rm_fase_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

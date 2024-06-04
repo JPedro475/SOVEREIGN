@@ -9,3 +9,10 @@ if (open = true)
 {
 	pausar();
 }
+else 
+{
+	instance_activate_object(obj_button_up);
+	instance_activate_object(obj_button_dir);
+	instance_activate_object(obj_button_esq);
+	instance_activate_object(obj_button_attack);
+}

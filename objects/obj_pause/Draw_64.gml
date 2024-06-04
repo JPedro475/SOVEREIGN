@@ -39,7 +39,7 @@ if(index == _i)
 
 			instance_deactivate_object(obj_menu_restart);
 		    //instance_deactivate_object(Obj_vitoria);
-			//instance_deactivate_object(obj_main_retart);
+			instance_deactivate_object(obj_menu_restart);
 			with(obj_button_pause)
 			{
 				open=false
@@ -48,11 +48,15 @@ if(index == _i)
 		}	
 		else if(index==1)
 		{	
-			desativar() instance_destroy() room_restart();
+			desativar();
+			instance_destroy();
+			room_restart();
 		}
 		else if(index==2)
 		{
-			desativar() instance_destroy() room_goto(rm_menu);
+			desativar();
+			instance_destroy();
+			room_goto(rm_menu);
 		}
 	}
 }
