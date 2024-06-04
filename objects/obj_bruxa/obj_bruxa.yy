@@ -37,6 +37,9 @@
     "name":"spr_bruxa_atacando",
     "path":"sprites/spr_bruxa_atacando/spr_bruxa_atacando.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_bruxa_idle",
+    "path":"sprites/spr_bruxa_idle/spr_bruxa_idle.yy",
+  },
   "visible":true,
 }
