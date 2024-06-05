@@ -9,6 +9,10 @@ open = false;
 
 desativar = function ()
 {
+	instance_deactivate_object(obj_fim_do_jogo);
+	instance_deactivate_object(obj_button_down_end);
+	instance_deactivate_object(obj_button_ok_end);
+	instance_deactivate_object(obj_button_up_end);
 	instance_deactivate_object(obj_button_up);
 	instance_deactivate_object(obj_button_dir);
 	instance_deactivate_object(obj_button_esq);

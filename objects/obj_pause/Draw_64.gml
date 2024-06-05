@@ -35,10 +35,8 @@ if(index == _i)
 			instance_deactivate_object(obj_button_up_conf);
 			instance_deactivate_object(obj_button_down);
 			instance_deactivate_object(obj_button_ok);
-
-
 			instance_deactivate_object(obj_menu_restart);
-		    //instance_deactivate_object(Obj_vitoria);
+		    instance_deactivate_object(obj_fim_do_jogo);
 			instance_deactivate_object(obj_menu_restart);
 			with(obj_button_pause)
 			{

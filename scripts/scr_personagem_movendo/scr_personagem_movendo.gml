@@ -10,6 +10,8 @@ cima = keyboard_check_pressed(vk_up);
 velh = (dir - esq) * vel;
 
 	#region //Direção
+if (!morto)
+{
 	if dir
 	{
 		xscale = 0;
@@ -93,8 +95,11 @@ velh = (dir - esq) * vel;
 	}
 	#endregion
 }
+}
 
 function scr_personagem_atacando()
+{
+if (!morto)
 {
 	if xscale == 0 
 	{
@@ -109,4 +114,5 @@ function scr_personagem_atacando()
 	{
 		estado = scr_personagem_movendo;
 	}
+}
 }

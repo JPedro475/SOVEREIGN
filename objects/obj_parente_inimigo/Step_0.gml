@@ -13,7 +13,14 @@ if vida <= 0
 		reset = true;
 	}
 	
-	sprite_index = sprite_morrendo;
+	if (direc == 0)
+	{
+		sprite_index = sprite_morrendo_dir;
+	}
+	else if (direc == 1)
+	{
+		sprite_index = sprite_morrendo_esq;
+	}
 	
 	if scr_fim_animacao()
 	{

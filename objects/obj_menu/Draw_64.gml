@@ -57,10 +57,14 @@ if (index == _i)
 			}
 			
 		}
-		/*else if (index == 3)
+		else if (index == 3)
 		{
-			
-		}*/
+			room_goto(rm_creditos);
+			instance_destroy(obj_btn_up_inicial);
+			instance_destroy(obj_btn_down_inicial);
+			instance_destroy(obj_btn_ok_inicial);
+			instance_destroy(obj_menu);
+		}
 		else if (index == 4)
 		{
 			game_end();

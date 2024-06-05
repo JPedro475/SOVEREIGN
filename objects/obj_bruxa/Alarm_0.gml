@@ -35,7 +35,10 @@ if (_distance_to_player <= fov_range)
 		{
         sprite_index = spr_bruxa_idle;
 		}
+	} 
+	else 
+	{
+    sprite_index = spr_bruxa_idle;
 } 
 
-// Reinicio do alarme para verificar novamente após um intervalo de tempo
 alarm[0] = 80; 
