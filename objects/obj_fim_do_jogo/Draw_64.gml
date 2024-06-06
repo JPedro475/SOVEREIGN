@@ -35,6 +35,7 @@ for(var _i = 0; _i < op_tamanho; _i++)
 			instance_deactivate_object(obj_player);
 			room_goto(rm_menu);
 			instance_deactivate_object(obj_fim);
+			instance_destroy();
 		}
 	}
 	

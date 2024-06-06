@@ -2,8 +2,8 @@ alarm[0] = 40
 event_inherited();
 
 vida = 3
-fov_range = 160;
-fov_angle = 50;
+fov_range = 180;
+fov_angle = 40;
 
 sprite_index = spr_bruxa_idle;
 sprite_morrendo_dir = spr_bruxa_die;

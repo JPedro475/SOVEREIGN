@@ -31,16 +31,16 @@ if(index == _i)
 		}
 		else if(index == 0)
 		{
+	
 			instance_activate_all();
 			instance_deactivate_object(obj_button_up_conf);
 			instance_deactivate_object(obj_button_down);
 			instance_deactivate_object(obj_button_ok);
 			instance_deactivate_object(obj_menu_restart);
 		    instance_deactivate_object(obj_fim_do_jogo);
-			instance_deactivate_object(obj_menu_restart);
 			with(obj_button_pause)
 			{
-				open=false
+				open = false;
 			}
 			desativar();
 		}	

@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fim_do_jogo",
+  "%Name":"obj_button_ok_res",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_fim_do_jogo",
+  "name":"obj_button_ok_res",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menus",
-    "path":"folders/Objetos/Controladores/Menus.yy",
+    "name":"Btn_Restart",
+    "path":"folders/Objetos/Botões/Btn_Restart.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -31,10 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"spr_sensor",
-    "path":"sprites/spr_sensor/spr_sensor.yy",
+  "spriteId":{
+    "name":"spr_btn_ok",
+    "path":"sprites/spr_btn_ok/spr_btn_ok.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -32,5 +32,5 @@
     "path":"sprites/spr_end_game/spr_end_game.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

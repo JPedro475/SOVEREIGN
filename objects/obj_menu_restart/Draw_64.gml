@@ -6,7 +6,6 @@ var _y1 = _guih / 2;
 var _margin = 70;
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-
 var _mx = device_mouse_x_to_gui(0);
 var _my = device_mouse_y_to_gui(0);
 
@@ -33,21 +32,22 @@ for (var _i = 0; _i < max_opcoes; _i++)
 			{
 				desativar();
 				room_restart();
-				instance_deactivate_object(self);
 			}
 			else if (index == 1)
 			{
 				desativar();
-				instance_destroy(self);
 				room_goto(rm_menu);
 				instance_deactivate_object(obj_button_pause);
+				
 			}
 		}
 	}
 	else 
 	{
 		draw_set_color(c_white);
-		draw_text(_x1, _y2, opcoes[_i]);
-		draw_set_font(fnt_menu);
 	}
+	draw_text(_x1, _y2, opcoes[_i]);	
+	draw_set_font(-1);
 }
+
+open = false;
