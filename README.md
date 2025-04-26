@@ -1,4 +1,4 @@
-# [SOVEREIGN] - Metroidvania no Estilo Castlevania (BETA)
+# [SOVEREIGN] - Metroidvania no Estilo Castlevania (EM DESENVOLVIMENTO)
 
 **Um jogo de ação e exploração em pixel art para Android, inspirado em Castlevania, desenvolvido no GameMaker com arte feita no Aseprite.**  
 
